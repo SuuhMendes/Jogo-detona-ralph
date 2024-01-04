@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../imagens/tijolinho.jpg");
+    background-size: contain;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 4px solid gold;
+  
+
+}
+.menu h2{
+    color: red;
+    margin-bottom: 10px;
+}
+.painel{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+   
+    justify-content: center;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #000000;
+    background-color: rgb(165, 249, 165);
+    
+}
+.enemy{
+    background-image: url("../imagens/RALPH.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
